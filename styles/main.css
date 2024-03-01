@@ -100,3 +100,20 @@ a {
   width: 100%;
   display: flex;
 }
+
+@media (max-width: 320px) {
+  .header-main {
+    width: 100%;
+  }
+
+  .header-main-logo {
+    height: 100%;
+    padding-left: 0px;
+  }
+
+  .header-main-nav ul li a {
+    padding: 0;
+    line-height: 60px;
+    height: 100%;
+  }
+}
