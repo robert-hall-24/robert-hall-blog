@@ -1,0 +1,133 @@
+main {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: bisque;
+  margin-top: 40px;
+  background-image: url(../images/wood-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+main .welcome-main-text h1 {
+  font-size: 26px;
+  line-height: 160px;
+  text-align: center;
+  display: block;
+  background-color: white;
+  box-shadow: 1px;
+}
+
+main p {
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  display: block;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+}
+
+/** Catetory Section **/
+.index-category {
+  width: 100%;
+  padding: 60px 0px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.index-category p {
+  color: #111;
+  text-align: center;
+  padding-bottom: 40px;
+  flex-basis: 100%;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.index-blog-box {
+  width: 160px;
+  height: 160px;
+  background-color: red;
+  background-color: #111;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.index-blog-box:nth-child(2) {
+  background-image: url(../images/tech-blog.jpg);
+}
+
+.index-blog-box:nth-child(3) {
+  background-image: url(../images/Te-houtaewa-image.jpeg);
+}
+
+.index-blog-box:nth-child(4) {
+  background-image: url(../images/coming-soon.jpg);
+}
+
+.dark-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.index-blog-box:hover .dark-hover {
+  opacity: 0;
+}
+
+.index-blog-box h3 {
+  font-size: 25px;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+  text-shadow: 0px -4px 0px #000;
+  z-index: 100;
+}
+
+/** About me Section **/
+.index-about {
+  width: 100%;
+  padding: 40px 0;
+  background-color: var(--site-color-01);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index-about-image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 5px;
+}
+
+.index-about-image img {
+  border-radius: 50%;
+}
+
+.index-about-text {
+  margin-top: 5px;
+}
+.index-about-text h2 {
+  margin-top: 5px;
+  padding-top: 5px;
+}
+.index-about-text p {
+  margin-top: 5px;
+  padding-top: 5px;
+}

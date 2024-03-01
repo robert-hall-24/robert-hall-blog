@@ -1,9 +1,74 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>My blog</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="styles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="styles/index.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
   <body>
-    <h1>Kia ora Taiao! (Hello World!)</h1> 
-    <p> This is the beginning of my website home page.</p>
-    <p> It will eventually contain a list of links to all my blogs. </p>
+    <header class="header-main">
+      <div class="header-main-logo">
+        <img src="images/logo-blog.png" alt="logo" />
+      </div>
+      <nav class="header-main-nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#">ABOUT ME</a></li>
+          <li><a href="#blogs">BLOGS</a></li>
+        </ul>
+      </nav>
+      <div class="header-main-sm"></div>
+    </header>
+    <main>
+      <div class="welcome-main-text">
+        <h1>Welcome to my landing page!</h1>
+        <p>
+          Hello I am Robert! This website is work in progress <br />
+          but I am proud of what I have achieve so far! <br />
+          Please use the navgation bar at the top to navgate through the
+          website.
+        </p>
+      </div>
+    </main>
+
+    <section class="index-category">
+      <p>BLOGS</p>
+      <a href="blog/tech-blog.html" class="index-blog-box">
+        <div class="dark-hover"></div>
+        <h3>
+          Tech <br />
+          Blog
+        </h3>
+      </a>
+      <a href="blog/te-houtaewa-template.html" class="index-blog-box">
+        <div class="dark-hover"></div>
+        <h3>TE-HOUTAEWA</h3>
+      </a>
+      <a href="" id="blogs" class="index-blog-box">
+        <div class="dark-hover"></div>
+        <h3>Coming Soon</h3>
+      </a>
+    </section>
+    <section class="index-about">
+      <div class="index-about-image">
+        <img
+          src="images/self-image.jpg"
+          alt="imag of myself for about section"
+        />
+      </div>
+      <div class="index-about-text"></div>
+      <h2>About Me</h2>
+      <p>Hello I am Rob, Thanks for checking out my about section!<br /></p>
+    </section>
+    <footer></footer>
   </body>
 </html>
