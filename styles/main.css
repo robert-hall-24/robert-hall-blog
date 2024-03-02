@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-  font-size: 26px;
+  font-size: 18px;
   line-height: 32px;
   color: black;
   font-family: 'Space Mono', monospace;
@@ -116,4 +116,7 @@ a {
     line-height: 60px;
     height: 100%;
   }
+}
+
+#blogs {
 }
