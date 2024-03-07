@@ -270,3 +270,20 @@ main p {
     text-align: center;
   }
 }
+
+@media (max-width: 700px) {
+  .index-about-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  .index-about-text h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .index-about-text {
+    font-size: 30px;
+  }
+}

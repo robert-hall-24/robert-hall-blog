@@ -118,5 +118,24 @@ a {
   }
 }
 
-#blogs {
+@media (max-width: 700px) {
+  .header-main {
+    width: 100%;
+  }
+
+  .header-main-logo {
+    height: 100%;
+    padding-left: 0px;
+  }
+
+  .header-main-nav ul li a {
+    line-height: 60px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header-main-nav ul li a {
+    line-height: 60px;
+  }
 }
