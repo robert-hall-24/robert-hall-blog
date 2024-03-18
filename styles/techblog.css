@@ -8,9 +8,13 @@ main {
 }
 
 p {
-  font-size: 17px;
+  font-size: 16px;
 }
 
+h3 {
+  font-size: 20px;
+  text-decoration: underline;
+}
 main .tech-blog-main-header {
   height: 50px;
   width: 600px;
@@ -51,6 +55,12 @@ main .tech-blog-main-header h1 {
   background-color: white;
 }
 
+.java-images {
+  width: 100%;
+  padding: 60px 0px;
+  background-color: white;
+}
+
 .about-class-section-p-2 {
   margin: 5px 0;
   padding: 5px 0;
@@ -75,6 +85,10 @@ main .tech-blog-main-header h1 {
   margin-top: 50px;
   display: block;
   background-color: var(--site-color-01);
+}
+
+.tech-blogs-picture {
+  padding: 20px 0;
 }
 
 @media (max-width: 425px) {

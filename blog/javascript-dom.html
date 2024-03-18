@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tech Blog</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../styles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/techblog.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header class="header-main">
+      <div class="header-main-logo">
+        <img src="../images/logo-blog.png" alt="logo" />
+      </div>
+      <nav class="header-main-nav">
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+        </ul>
+      </nav>
+      <div class="header-main-sm"></div>
+    </header>
+    <main>
+      <div class="tech-blog-main-header">
+        <h1>
+          JavaScript and the DOM!
+          <br />
+        </h1>
+      </div>
+    </main>
+    <section>
+      <div class="about-class-section">
+        <div class="about-class-section-header">
+          <h2>Relationship between JavaScript and HTML/CSS</h2>
+        </div>
+        <div class="about-class-section-p-1">
+          <p>
+            I will try my best to explain the relationship between JavaScript
+            and HTML/CSS. Lets break down what each language does.
+          </p>
+          <br />
+          <h3>HTML</h3>
+          <br />
+          <p>
+            Think of HTML is the structure of a building. You need to build the
+            foundation and structure first before the building can be completed.
+          </p>
+          <br />
+          <h3>CSS</h3>
+          <br />
+          <p>
+            CSS is the wall paper, the color of the outside of the house and
+            inside. Paintings on the walls. You favorite band poster. CSS makes
+            things look pretty, homely and easy for the eye to digest.
+          </p>
+          <br />
+          <h3>JavaScript</h3>
+          <br />
+          <p>
+            Imagine your house didn't have power, water or internet? This where
+            JavaScript comes in. JavaScript makes the home functionally and
+            connects your home to plumbing, internet and power.
+          </p>
+          <br />
+          <h3>Summary</h3>
+          <br />
+          <p>
+            HTML and CSS are the foundations and the look of your websites and
+            JavaScript makes your websites interactivity and functional creating
+            better dynamic content.
+          </p>
+         </br>
+         <p>Below is high level example of what each language does:</p>
+        </div>
+        <div class="java-images">
+          <img
+            src="../images/tech-that-drives-the-web.png"
+            alt="relationship between JavaScript and HTML/CSS"
+          />
+        </div>
+        <div class="about-class-section-p-2">
+          <p></p>
+        </div>
+      </div>
+      <div class="about-id-section">
+        <div class="about-class-section-header">
+          <h2>Control Flow and Loops</h2>
+        </div>
+        <div class="about-class-section-p-1">
+          <p>Control Flow and Loops are used in code to make it behavior in a specific order until you reach the result wanted.
+            Lets say you want to walk to the shop. You know the route so you follow the directions you normally take.
+            There are different mechanisms involved in control flow but lets use loops.  You start from your house which 120 meters from the shop. So you keep walking down the street, road or path until you reach the shop.
+            The loop in this situation will be checking if you have reached 0 meters from your original start point. If you haven't it will keeping going until you do. Once you have reached 0 meters the loop is completed.
+          </p>
+        </div>
+        <div class="about-class-section-p-2">
+          <p></p>
+        </div>
+      </div>
+      <div class="white-space"></div>
+      <div class="about-id-section">
+        <div class="about-class-section-header">
+          <h2>When even is the DOM?</h2>
+        </div>
+        <div class="about-class-section-p-1">
+          <h3>DOM meaning?</h3>
+          <br/>
+          <p> DOM stands for The Document Object Model (DOM). 
+            <br/>
+            The DOM is like a blueprint for that building, but instead of showing how pipes and wires are laid out, it shows how the different parts of the page fit together.  
+            This blueprint (DOM) lets programmers change things on the webpage, like moving furniture (content) around.
+          </p>
+          <br/>
+          <h3>How is DOM used?</h3>
+          <br/>
+          <p>Lets think a of webpage. It is full of elements. What if you didn't need to change the HTML or CSS files. but still make change?? </br>
+            Can you do this? <br/>
+            Yes!! you can. The whole point of the DOM is for you to make changes to the content on your page by manipulating elements. Which is pretty is cool. <br/>
+          </p>
+         </br>
+         <h3>Example of DOM in action</h3>
+         <p> I am gonna using the DOM applying class example.
+          Currently the website looks like this.
+         </p>
+        </div>
+        <div class="java-images">
+          <img src="../images/Screenshot 2024-03-18 190320.png" alt="id html example" />
+        </div>
+        <br/>
+        <p>
+        Let's say we want change the first div element has an id class called: "One"
+        First lets see how we can find the element in JavaScript.
+        <br/>
+        <br/>
+        You can use this > document.getElementById(`one`). What this doing using the DOM to get the element under the ID of 'One'.
+        below is what this command looks like:
+        </p>
+        <br/>
+        <div class="java-images">
+          <img src="../images/find-doc.png" alt="find-doc" />
+        </div>
+        <br/>
+        <p>Since we called it! how about we make some changes. One being changing the CSS class to change the color.
+          <br/>
+          <br/>
+          Let's use the function one which is calling the element one. Making it variable and changing it.
+        </p>
+        <br/>
+        <div class="java-images">
+          <img src="../images/function-one.png" alt="function-one" />
+        </div>
+        <br/>
+        <p> See the one.classList.add('blue"). <br/> <br/>
+          That is calling css class in the style sheet and changing div one to the color blue.
+          Below is the class it is calling to.
+        </p>
+        <br/>
+        <div class="java-images">
+          <img src="../images/blue-css.png" alt="blue-css" />
+        </div>
+        <div class="white-space"></div>
+        <div class="about-id-section">
+          <div class="about-class-section-header">
+            <h2>Accessing Data From Arrays and Objects</h2>
+          </div>
+          <div class="about-class-section-p-1">
+            <p>Differences between Arrays and Objects</p>
+          </br>
+          <h3>Array</h3>
+          <p>Think of an Array as a shopping list. It stores a list of data that is counted from 0. <br/> Which is usefully for loops. Below is an example of what an array looks like. </p> <br/>
+          <div class="java-images">
+              <img src="../images/array.png" alt="array" />
+          </div>
+          <br/>
+          <h3>Objects</h3>
+          <p> Think of objects where you store key information. Like a name, phone number or your age. Here is an example below.</p>
+          <br/>
+          <div class="java-images">
+            <img src="../images/object-blog.png" alt="object-blog" />
+          </div>
+          </div>
+
+        <div class="white-space"></div>
+      <div class="best-use-section">
+        <div class="about-class-section-header">
+          <h2>Functions</h2>
+        </div>
+        <br/>
+        <h3>What is a Function</h3>
+        <p>Think of function as a container of code or mini-program. That you can reuse. <br/> 
+          It looks like the example below but it can be bigger or smaller.</p>
+        <br/>
+        <div class="java-images">
+          <img src="../images/funcation-1.png" alt="object-blog" />
+        </div>
+        <br/>
+        <h3>Why would we use Functions?</h3>
+        <p>There a multi reasons why Functions are important to use. You can reuse your functions in different parts of your code. The reusability is a huge peak. <br/>
+          They make your code cleaner and easy to navigate if someone else was editing your code. <br/>
+        </p>
+        </div>
+      </div>
+    </section>
+    <div class="white-space"></div>
+  </body>
+</html>
