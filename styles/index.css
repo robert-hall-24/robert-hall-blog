@@ -77,6 +77,14 @@ main p {
   background-image: url(../images/coming-soon.jpg);
 }
 
+.index-blog-box:nth-child(5) {
+  background-image: url(../images/pexels-irina-iriser-1086585.jpg);
+}
+
+.index-blog-box:nth-child(6) {
+  background-image: url(../images/orange-background.jpg);
+}
+
 .dark-hover {
   position: absolute;
   top: 0;
@@ -92,7 +100,7 @@ main p {
 }
 
 .index-blog-box h3 {
-  font-size: 25px;
+  font-size: 21px;
   line-height: 24px;
   color: white;
   text-align: center;
