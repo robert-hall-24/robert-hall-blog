@@ -20,6 +20,7 @@ main .welcome-main-text h1 {
   display: block;
   background-color: white;
   box-shadow: 1px;
+  border-radius: 10px;
 }
 
 main p {
@@ -30,10 +31,17 @@ main p {
   padding: 5px;
   margin: 5px;
   background-color: white;
+  border-radius: 10px;
 }
 
-/** Catetory Section **/
-.index-category {
+/** Catetory Section 
+
+index-p-category = Personal Blogs 
+index-t-category = Tech Blogs 
+
+
+**/
+.index-p-category {
   width: 100%;
   padding: 60px 0px;
   background-color: white;
@@ -43,7 +51,29 @@ main p {
   flex-wrap: wrap;
 }
 
-.index-category p {
+.index-t-category {
+  width: 100%;
+  padding: 60px 0px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  border-radius: 12px;
+}
+
+.index-p-category {
+  width: 100%;
+  padding: 60px 0px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  border-radius: 12px;
+}
+
+.index-t-category p {
   color: #111;
   text-align: center;
   padding-bottom: 40px;
@@ -52,9 +82,18 @@ main p {
   text-transform: uppercase;
 }
 
-.index-blog-box {
-  width: 160px;
-  height: 160px;
+.index-p-category p {
+  color: #111;
+  text-align: center;
+  padding-bottom: 40px;
+  flex-basis: 100%;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.index-p-blog-box {
+  width: 150px;
+  height: 150px;
   background-color: red;
   background-color: #111;
   background-repeat: no-repeat;
@@ -65,23 +104,48 @@ main p {
   position: relative;
 }
 
-.index-blog-box:nth-child(2) {
-  background-image: url(../images/tech-blog.jpg);
+.index-t-blog-box {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  background-color: #111;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.index-blog-box:nth-child(3) {
+/**  Personal Blog Images   **/
+
+.index-p-blog-box:nth-child(2) {
   background-image: url(../images/Te-houtaewa-image.jpeg);
 }
 
-.index-blog-box:nth-child(4) {
-  background-image: url(../images/coming-soon.jpg);
+.index-p-blog-box:nth-child(3) {
+  background-image: url(../images/orange-background.jpg);
 }
 
-.index-blog-box:nth-child(5) {
+.index-p-blog-box:nth-child(4) {
   background-image: url(../images/pexels-irina-iriser-1086585.jpg);
 }
 
-.index-blog-box:nth-child(6) {
+.index-p-blog-box:nth-child(5) {
+  background-image: url(../images/problem-solving-blog.jpg);
+}
+
+/** Tech Blog Images  **/
+
+.index-t-blog-box:nth-child(2) {
+  background-image: url(../images/tech-blog.jpg);
+}
+
+.index-t-blog-box:nth-child(3) {
+  background-image: url(../images/java-dom.jpg);
+}
+
+.index-t-blog-box:nth-child(4) {
   background-image: url(../images/orange-background.jpg);
 }
 
@@ -95,11 +159,24 @@ main p {
   opacity: 0.5;
 }
 
-.index-blog-box:hover .dark-hover {
+.index-p-blog-box:hover .dark-hover {
   opacity: 0;
 }
 
-.index-blog-box h3 {
+.index-t-blog-box:hover .dark-hover {
+  opacity: 0;
+}
+
+.index-p-blog-box h3 {
+  font-size: 21px;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+  text-shadow: 0px -4px 0px #000;
+  z-index: 100;
+}
+
+.index-t-blog-box h3 {
   font-size: 21px;
   line-height: 24px;
   color: white;
@@ -111,7 +188,7 @@ main p {
 /** About me Section **/
 .index-about {
   width: 100%;
-  padding: 40px 0;
+  padding: 50px 0;
   background-color: var(--site-color-01);
   display: flex;
   flex-direction: column;
@@ -138,6 +215,14 @@ main p {
 .index-about-text p {
   margin-top: 5px;
   padding-top: 5px;
+}
+
+.white-space {
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  display: block;
+  background-color: var(--site-color-01);
 }
 
 @media (max-width: 320px) {
