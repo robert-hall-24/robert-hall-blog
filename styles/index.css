@@ -143,6 +143,10 @@ index-t-category = Tech Blogs
   background-image: url(../images/growthandnero.jpg);
 }
 
+.index-p-blog-box:nth-child(7) {
+  background-image: url(../images/te-whare-tapa-wha-purple-large-medium.jpg);
+}
+
 /** Tech Blog Images  **/
 
 .index-t-blog-box:nth-child(2) {

@@ -43,6 +43,22 @@ p {
   font-family: 'Space Mono', monospace;
 }
 
+td {
+  font-size: 14px;
+  line-height: 18px;
+  color: black;
+  font-family: 'Space Mono', monospace;
+}
+
+th {
+  font-size: 18px;
+  line-height: 20px;
+  color: black;
+  font-family: 'Space Mono', monospace;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 a {
   cursor: pointer;
 }
