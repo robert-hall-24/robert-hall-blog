@@ -34,6 +34,10 @@ main p {
   border-radius: 10px;
 }
 
+h3 {
+  font-size: 18px;
+}
+
 /** Catetory Section 
 
 index-p-category = Personal Blogs 
@@ -78,7 +82,7 @@ index-t-category = Tech Blogs
   text-align: center;
   padding-bottom: 40px;
   flex-basis: 100%;
-  font-size: 25px;
+  font-size: 30px;
   text-transform: uppercase;
 }
 
@@ -133,6 +137,10 @@ index-t-category = Tech Blogs
 
 .index-p-blog-box:nth-child(5) {
   background-image: url(../images/problem-solving-blog.jpg);
+}
+
+.index-p-blog-box:nth-child(6) {
+  background-image: url(../images/growthandnero.jpg);
 }
 
 /** Tech Blog Images  **/
