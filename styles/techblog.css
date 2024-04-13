@@ -49,6 +49,26 @@ main .tech-blog-main-header h1 {
   box-shadow: 2px 2px black;
 }
 
+.header-block {
+  height: 80px;
+  width: 100%;
+  display: block;
+  background-color: white;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px black;
+}
+
+.header-block h2 {
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+  color: black;
+  font-family: 'Space Mono', monospace;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 .about-class-section-header h2 {
   text-align: center;
   font-size: 22px;
